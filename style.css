@@ -24,7 +24,7 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    width: 1440px;
+    width: 100%;
 }
   /*
     5. Improve media defaults
@@ -175,8 +175,15 @@ h6 {
     width: 240px;
 }
 
+.btn-entrar {
+    background-color: transparent;
+    color: var(--color-gray-500);
+    cursor: pointer;
+    padding: 0px 30px;
+}
 
-.btn {
+
+.btn-cadastrar {
     background-color: var(--color1);
     color: var(--color-basewhite);
     border-radius: 8px;
@@ -210,7 +217,7 @@ h6 {
 }
 
 .sobrenos p {
-    width: 55%;
+    width: 60%;
     color: var(--color-gray-500);
     font-weight: var(--fw-400);
     font-size: 20px;
@@ -219,7 +226,7 @@ h6 {
 
 /* --------------------------RESULTADOS----------------------------- */
 
-/* .resultados {
+.resultados {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -234,15 +241,16 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 64px;
+    gap: 32px;
     padding: 0px 32px;
 }
 
 .conteudo {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 32px;
     align-self: stretch;
+    
 }
 
 .contagem {
@@ -273,4 +281,106 @@ h6 {
     line-height: 24px;
 }
 
- */
+
+/* ------------------------------------VAGAS--------------------------*/
+
+.vagas {
+    display: flex;
+    padding: 96px 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    gap: 64px;
+}
+
+.titulo-foto {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.vagas-titulo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.vagas-titulo h3 {
+    color: var(--color1);
+    font-size: 14px;
+    font-weight: var(--fw-500);
+}
+
+.vagas-titulo h2 {
+    color: var(--color-gray-900);
+    font-size: 36px;
+    font-weight: var(--fw-600);
+    line-height: 44px;
+}
+
+/* ------------------------VAGAS-OFERECIDAS---------------------------- */
+
+.vagas-abertas {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 32px;
+    gap: 64px;
+}
+
+.area-vaga {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    padding: 24px 0px 28px 0px;
+}
+
+.area-vaga h4 {
+    font-size: 20px;
+    color: var(--color-gray-900);
+    font-weight: var(--fw-500);
+    line-height: 30px;
+}
+
+.conteudo-vaga  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;    
+}
+
+.vaga {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 30px;
+}
+
+.vaga h5 {
+    color: var(--color-gray-900);
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.informacoes-vaga {
+    font-size: 16px;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    color: var(--color-gray-500);
+    line-height: 26px;
+}
+
+
+/* ------------------------DEPOIMENTOS---------------------------- */
+
+/* ------------------------FORMULÁRIOS---------------------------- */
