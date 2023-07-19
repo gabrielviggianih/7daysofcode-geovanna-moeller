@@ -11,8 +11,8 @@
 
 ### Project
 
-    This is a project I'm doing only with the help of figma, on my own.
-
+  This is a project i'm doing only with the help of figma, on my own.
+   
 ### Links
 
 - Solution URL: [https://github.com/gabrielviggianih/7daysofcode-giovanna-moeller]
